@@ -1,0 +1,51 @@
+[
+  {
+    "endpoint": "/api/metrics/revenue",
+    "cold_ms": 296.9305830047233,
+    "warm_mean_ms": 1.2802083016140386,
+    "warm_stdev_ms": 0.20949675644080615,
+    "reduction_pct": 99.5688526629156
+  },
+  {
+    "endpoint": "/api/metrics/revenue/monthly",
+    "cold_ms": 296.81308299768716,
+    "warm_mean_ms": 1.2020373993436806,
+    "warm_stdev_ms": 0.2555322046028077,
+    "reduction_pct": 99.59501872787965
+  },
+  {
+    "endpoint": "/api/categories/revenue",
+    "cold_ms": 932.4737499991897,
+    "warm_mean_ms": 1.1646415005088784,
+    "warm_stdev_ms": 0.23196847606229853,
+    "reduction_pct": 99.87510195321747
+  },
+  {
+    "endpoint": "/api/channels/revenue",
+    "cold_ms": 590.501625003526,
+    "warm_mean_ms": 1.1375665999366902,
+    "warm_stdev_ms": 0.21409322649979148,
+    "reduction_pct": 99.80735589001472
+  },
+  {
+    "endpoint": "/api/products/top?limit=10",
+    "cold_ms": 938.9884590054862,
+    "warm_mean_ms": 1.1479748020065017,
+    "warm_stdev_ms": 0.1687093693848816,
+    "reduction_pct": 99.87774345989062
+  },
+  {
+    "endpoint": "/api/products/top?limit=50",
+    "cold_ms": 837.2133749944624,
+    "warm_mean_ms": 1.4017250985489227,
+    "warm_stdev_ms": 0.2490490298871978,
+    "reduction_pct": 99.8325725388037
+  },
+  {
+    "endpoint": "/api/customers/top?limit=10",
+    "cold_ms": 822.3484579939395,
+    "warm_mean_ms": 1.2488458000007086,
+    "warm_stdev_ms": 0.1884762369489179,
+    "reduction_pct": 99.84813666422538
+  }
+]

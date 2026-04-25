@@ -1,0 +1,57 @@
+[
+  {
+    "query": "Q1: Top 5 categories by revenue",
+    "star_ms": 2192.5300501985475,
+    "star_stdev": 146.6857089731174,
+    "oltp_ms": 4754.653574799886,
+    "oltp_stdev": 541.4589395600381,
+    "speedup_pct": 53.886649874574154,
+    "star_rows": 5,
+    "oltp_rows": 5,
+    "rows_match": true
+  },
+  {
+    "query": "Q2: Monthly revenue trend",
+    "star_ms": 309.8211000004085,
+    "star_stdev": 3.6624959785698348,
+    "oltp_ms": 1046.2246332026552,
+    "oltp_stdev": 44.25225979905151,
+    "speedup_pct": 70.38675154760998,
+    "star_rows": 4,
+    "oltp_rows": 4,
+    "rows_match": true
+  },
+  {
+    "query": "Q3: Top 10 customers by lifetime value (with segment)",
+    "star_ms": 1926.2131335999584,
+    "star_stdev": 92.6921781503193,
+    "oltp_ms": 6343.335433202446,
+    "oltp_stdev": 714.2354487986895,
+    "speedup_pct": 69.63406469855393,
+    "star_rows": 10,
+    "oltp_rows": 10,
+    "rows_match": true
+  },
+  {
+    "query": "Q4: Revenue by channel \u00d7 region",
+    "star_ms": 1127.8932667977642,
+    "star_stdev": 27.720339300360216,
+    "oltp_ms": 6316.622633399675,
+    "oltp_stdev": 187.4863369354725,
+    "speedup_pct": 82.14404544552126,
+    "star_rows": 11,
+    "oltp_rows": 11,
+    "rows_match": true
+  },
+  {
+    "query": "Q5: Revenue by category \u00d7 month (cube)",
+    "star_ms": 2310.2447250072146,
+    "star_stdev": 63.88660760145915,
+    "oltp_ms": 10300.798516601208,
+    "oltp_stdev": 936.7904761165343,
+    "speedup_pct": 77.57217829973158,
+    "star_rows": 20,
+    "oltp_rows": 20,
+    "rows_match": true
+  }
+]
